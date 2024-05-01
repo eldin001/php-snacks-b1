@@ -8,6 +8,7 @@
 <body>
     <h1>Verifica dati accesso</h1>
 
+
     <form action="accesso.php" method="get">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required>
