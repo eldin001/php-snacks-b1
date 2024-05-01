@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Partite di Basket</title>
+    <title>Document</title>
 </head>
 <body>
-
 <h1>Partite di Basket</h1>
-
 <?php
 $partite = [
     ["Olimpia Milano", "Cantù", 55, 60],
@@ -22,12 +20,10 @@ $partite = [
     ["Venezia", "Cantu", 85, 80],
 ];
 ?>
-
 <ul>
     <?php foreach ($partite as $partita): ?>
         <li><?php echo $partita[0] . " - " . $partita[1] . " | " . $partita[2] . "-" . $partita[3]; ?></li>
     <?php endforeach; ?>
 </ul>
-
 </body>
 </html>
